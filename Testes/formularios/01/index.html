@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste de Formularios</title>
+</head>
+<body>
+    <h1>Bem vindo ao meu primeiro Formulario</h1>
+    <form action="/enviar" method="POST" type="text">
+        <label for="nome">digite seu nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="digite seu nome aqui"> <!-- type= text, password, email, number, checkbox, radio, submit -->
+        <br>
+
+        <label for="">Email:</label> 
+        <input type="text" id="email" name="email" placeholder="Digite seu email aqui">
+        <br>
+
+        <label for="mensagem">Digite uma mensagem: </label>
+        <textarea id="mensagem" name="mensagem" placeholder="Digite aqui sua mensagem"></textarea>
+        <br>
+
+        <button type="submit">Enviar dados</button> <!-- type= submit, button -->
+        
+</body>
+</html>
