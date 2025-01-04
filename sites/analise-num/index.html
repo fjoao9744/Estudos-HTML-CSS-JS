@@ -4,12 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Analisador de numeros</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Analisador de numeros</h1>
 
-    <div>
-        <form ></form>
+    <div id="home">
+        <form id="form">
+            <label for="numero">Número(entre 0 e 100):</label>
+            <input type="number" name="numero" required>
+            <button type="submit">Adicionar</button>
+        </form>
+        <div id="valores"></div>
+        <button id="finalisar">Finalizar</button>
+        <div class="analise">
+            <p id="total"></p>
+            <p id="maior"></p>
+            <p id="menor"></p>
+            <p id="ultimo"></p>
+            <p id="soma"></p>
+            <p id="media"></p>
+        </div>
     </div>
+
+
+    <footer> &copy; <em>João F./Milkdad</em> </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
