@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 50%;
+    background-color: white;
+    padding: 30px;
+    margin-top: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#sex__div {
+    flex-direction: row;
+}
+
+input {
+    margin-bottom: 20px;
+}
