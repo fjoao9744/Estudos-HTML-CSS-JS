@@ -1,0 +1,26 @@
+<style>
+    .classe {
+        color: grey;
+    }
+    .ativa {
+        color: green;
+    }
+</style>
+
+<h1>manipulando classes</h1>
+
+<p class="classe">smogon</p>
+<p class="classe">smogon</p>
+<p class="classe">smogon</p>
+<p class="classe">smogon</p>
+<p class="classe">smogon</p>
+
+<script>
+    let els = document.getElementsByClassName('classe')
+
+    els[0].classList.add("ativa")
+    els[1].classList.remove("classe")
+    els[2].classList.toggle("ativa") // se ele n tiver, adicionar, se ele tiver, tira
+    console.log(els[3].classList.contains("classe"))
+
+</script>
