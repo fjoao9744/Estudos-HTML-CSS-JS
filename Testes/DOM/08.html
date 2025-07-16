@@ -1,0 +1,17 @@
+<div>
+    <h1>isso é um titulo</h1>
+    <div style="flex-direction: row; display: flex; height: 30px; align-items: center;" id="caixa">
+        <p>isso um paragrafo</p>
+        <button>e um botão</button>
+    </div>
+</div>
+
+<script>
+    let el = document.getElementById("caixa")
+
+    console.log(el.parentElement) // tag pai
+    console.log(el.children) // tags filhas
+    console.log(el.firstElementChild) // primeiro filho
+    console.log(el.lastElementChild) // ultimo filho
+
+</script>
